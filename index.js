@@ -1,32 +1,36 @@
+
 const express = require('express')
 const app = express();
-const cors =require('cors');
+const cors = require('cors');
 const port = process.env.PORT || 5000;
 
 
 app.use(cors());
 const categories = require('./data/categories.json');
-const courses = require('./data.courses.json');
+console.log(categories)
 
 
-app.get('/',(req,res)=>{
+app.get('/', (req, res) => {
     res.send('Course API Running');
 });
 
-app.get('/courses-categories',(req,res)=>{
-   // console.log('online-courses-server',)
-   res.send( categories)
+
+app.get('/courses', (req, res) => {
+    res.send(categories)
 });
-app.get('/category/:id',(req, res)=>{
-    const id=req.params.id;
-    const categoryCourses = courses.filter(courses=>courses.id===id);
+
+
+app.get('/courses/:id', (req, res) => {
+    console.log(req.params);
+    const id = req.params.id;
+    console.log(id);
+    const categoryCourses = categories.find(course => course.id === id);
+    console.log(categoryCourses);
     res.send(categoryCourses);
 })
-app.get('/courses/:id',(req,res)=>{
-    const id = req.params.id;
-    const selectedCourses= courses.find(course=>course.id===id);
-    res.send(selectedCourses);
-})
-app.listen(port,()=>{
-    console.log('online courses server',port);
+
+
+
+app.listen(port, () => {
+    console.log('online courses server', port);
 })

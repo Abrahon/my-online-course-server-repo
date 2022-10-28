@@ -1,30 +1,63 @@
 [
     {
-        "id":"01",
-        "name":"HTML"
-    },
-    {
-        "id":"02",
-        "name":"CSS"
-    },
-    {
-        "id":"03",
-        "name":"Javascript"
-    },
-    {
-        "id":"04",
-        "name":"React js"
-    },
-    {
-        "id":"05",
-        "name":"C/C++"
-    },
-    {
-        "id":"06",
-        "name":"Python"
-    }
-   
-]
-   
-
+      "id": "01",
+      "course_name": "HTML",
+      "title" : "Semantic Structure.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png",
+      "price" : "$10",
   
+      "details": "This contains two attributes, but there is no closing img tag and no inner content. This is because an image element doesn't wrap content to affect it. Its purpose is to embed an image in the HTML page in the place it appears.!DOCTYPE html - doctype. It is a required preamble. In the mists of time, when HTML was young (around 1991/92),  were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML, which could mean automatic error checking and other useful things. However, these days, they don't do much and are basically just needed to make sure your document behaves correctly. That's all you need to know for now.A <details> widget can be in one of two states. The default closed state displays only the triangle and the label inside <summary> (or a user agent-defined default string if no "
+
+
+      
+    },
+    {
+      "id":"02",
+      "course_name": "CSS",
+      "title": "CSS in 1 Hours",
+      "image_url": "https://cdn.mos.cms.futurecdn.net/Vp9WvV7YKdH4k8sKRePcE8.jpg",
+      "price" : "$12",
+      "details" : "Our CSS Learning Area features multiple modules that teach CSS from the ground up — no previous knowledge required. Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media"
+    },
+    {
+      "id": "03",
+      "course_name": "javascript",
+      "title" : "Javascript for Beginners",
+      "image_url": "https://js.org/ico/512.png",
+      "price" : "$50",
+      "details" : "JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles."
+  
+  
+    },
+    {
+      "id": "04",
+      "course_name": "React",
+      "title" : "Life of website",
+      "image_url": "https://www.freecodecamp.org/news/content/images/2021/06/Ekran-Resmi-2019-11-18-18.08.13.png",
+      "price" : "$40",
+      "details" :"React is a JavaScript-based UI development library. Facebook and an open-source developer community run it. Although React is a library rather than a language, it is widely used in web development. The library first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development"
+  
+    },
+    {
+      "id": "05",
+      "course_name": "C/C++",
+      "title" : "Mother language",
+      "image_url": "https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2020/06/C_C_featuredimage.png?itok=o1mJTa7J",
+      "price" : "$60",
+      "details" : "C is an imperative procedural language supporting structured programming, lexical variable scope, and recursion, with a static type system. It was designed to be compiled to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support.The components of the above structure are" 
+      
+    },
+    
+      {
+        "id": "06",
+        "course_name": "Python",
+        "title" :"Python for beginners",
+        "image_url":"https://www.pythoncentral.io/wp-content/uploads/2022/06/a8531424a5fac660e4261f72ca817141.png",
+
+        "price" : "$80",
+        "details" : "Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn’t specialized for any specific problems. This versatility, along with its beginner-friendliness, has made it one of the most-used programming languages today. A survey conducted by industry analyst firm RedMonk found that it was the second-most popular programming language among developers in.Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it’s relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks, like organizing finances."
+  
+        
+      }
+    
+  ]
